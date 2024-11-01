@@ -1,0 +1,154 @@
+
+/* CSS File: style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: orange;
+    /* Lighter background for better contrast */
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #232F3E;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.banner {
+    overflow: hidden;
+    /* Prevent overflow issues */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 300px;
+    /* Control height to keep it visible but not overwhelming */
+    object-fit: cover;
+    /* Ensure image covers the area */
+}
+
+.introduction {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: black;
+}
+
+
+.about {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.description {
+    flex: 1;
+    /* Use flex property to allow automatic sizing */
+    padding-right: 20px;
+    color: black;
+    /* Change text color for better contrast */
+}
+
+.my-image {
+    flex: 1;
+    /* Use flex property to allow automatic sizing */
+    box-shadow: #37475A;
+    transition: transform 0.2s;
+}
+
+.my-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.background-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.top-bio {
+    padding: 10px;
+    color: black;
+}
+
+.bottom-bio {
+    padding: 10px;
+    color: rgb(100, 100, 100);
+}
+
+.job-opportunities {
+    text-align: center;
+    margin: 20px 0;
+    color: cornflowerblue;
+}
+
+.jobs {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.job-item {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+    /* Add a smooth hover effect */
+}
+
+.job-item:hover {
+    transform: scale(1.02);
+    /* Slightly enlarge on hover */
+}
+
+.apply {
+    color: green;
+    float: right;
+    padding-top: 70px;
+}
+
+.footer {
+    background-color: #37475A;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a{
+    color: white;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.copy-right {
+    color: gray;
+}
